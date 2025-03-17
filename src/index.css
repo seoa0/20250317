@@ -1,13 +1,20 @@
+/* 기본 스타일 */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "kirang haerang", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+/* code {
+  font-family: "Source Code Pro", Menlo, Monaco, Consolas, "Courier New",
     monospace;
+} */
+
+/* 웹폰트 로컬 불러오기 */
+@font-face {
+  font-family: "kirang haerang";
+  src: url("./fonts/kirang-haerang-v21-latin-regular.woff2") format("woff2");
+  font-style: normal;
+  font-display: swap; /* 폰트 로딩이 늦어질 경우 대체 폰트로 빠르게 표시됨 */
 }

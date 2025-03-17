@@ -24,9 +24,9 @@ const RuleTitle = styled.h1`
 
 const RuleText = styled.div`
   ${fonts.title}
-  font-size: 0.7rem;
+  font-size: 1.2rem;
   text-align: center;
-  line-height: 0.4;
+  line-height: 0.9;
   opacity: 0;
   transform: translateY(20px);
   animation: fadeInUp 0.5s ease 0.3s forwards;

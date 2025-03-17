@@ -39,7 +39,7 @@ const NumberButton = styled.button<{ selected?: boolean }>`
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;

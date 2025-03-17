@@ -4,7 +4,8 @@ import { colors } from "@resources/colors";
 const styles = css`
   @font-face {
     font-family: "OngluipDahyun";
-    src: url("%PUBLIC_URL%/fonts/온글잎 박다현체.ttf") format("truetype");
+    src: url("/fonts/OngluipDahyun.ttf") format("truetype"),
+      url("../public/fonts/OngluipDahyun.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;

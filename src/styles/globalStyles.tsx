@@ -4,7 +4,7 @@ import { colors } from "@resources/colors";
 const styles = css`
   @font-face {
     font-family: "EF_jejudoldam";
-    src: url("%PUBLIC_URL%/fonts/EF_jejudoldam.ttf") format("truetype");
+    src: url("%PUBLIC_URL%/fonts/EF_jejudoldam.otf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;

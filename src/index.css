@@ -1,7 +1,6 @@
 /* 기본 스타일 */
 body {
   margin: 0;
-  font-family: "OngluipDahyun", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

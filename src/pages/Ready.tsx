@@ -133,7 +133,7 @@ const Ready = () => {
 
   return (
     <ReadyContainer>
-      <TurnText>{currentPlayer}번째 플레이어 차례입니다</TurnText>
+      <TurnText>{currentPlayer}번째 플레이어 차례</TurnText>
       <NumberContainer>
         <NumberGrid>
           {Array.from({ length: playerCount }, (_, i) => i + 1).map(
@@ -149,10 +149,10 @@ const Ready = () => {
           )}
         </NumberGrid>
         {selectedNumber && currentPlayer < playerCount && (
-          <ResultButton onClick={handleNextPlayer}>다음 플레이어</ResultButton>
+          <ResultButton onClick={handleNextPlayer}>선택 완료</ResultButton>
         )}
         {selectedNumber && currentPlayer === playerCount && (
-          <ResultButton onClick={handleShowResults}>결과 확인하기</ResultButton>
+          <ResultButton onClick={handleShowResults}>결과 확인</ResultButton>
         )}
       </NumberContainer>
     </ReadyContainer>

@@ -57,16 +57,15 @@ const Game = () => {
     <GameContainer>
       <RuleTitle>게임 방법</RuleTitle>
       <RuleText>
-        <p>참가자들은 1에서 {playerCount}까지 숫자 하나를 선택해야 합니다.</p>
+        <p>참가자들은 1에서 {playerCount}까지 숫자 하나를 선택합니다.</p>
         <p>
-          가장 큰 숫자를 고른 상위 {Math.floor(playerCount / 2)}명이
-          살아남습니다.
+          큰 숫자를 고른 상위 {Math.floor(playerCount / 2)}명이 살아남습니다.
         </p>
-        <p>나머지 사람들은 자신이 고른 숫자 x 반잔을 마십니다.</p>
+        <p>나머지 사람들은 자신이 고른 수*반잔을 마십니다.</p>
         <p>그러나! 같은 숫자를 선택한 사람이 있다면</p>
-        <p>그들끼리 한잔씩 마시게 됩니다!</p>
+        <p>그들끼리 한잔씩 마시게 됩니다.</p>
         <p>돌아가면서 몰래 숫자를 선택하고</p>
-        <p>마지막에 모두 공개합니다!</p>
+        <p>마지막에 모두 공개합니다.</p>
         <p>자신의 순서를 꼭 기억하세요.</p>
       </RuleText>
       <NextButton

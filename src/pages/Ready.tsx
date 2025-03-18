@@ -36,8 +36,8 @@ const NumberGrid = styled.div`
 
 const NumberButton = styled.button<{ selected?: boolean }>`
   ${fonts.button}
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   font-size: 2rem;
   background-color: white;
@@ -49,6 +49,7 @@ const NumberButton = styled.button<{ selected?: boolean }>`
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  color: #333;
 
   &:hover {
     transform: translateY(-5px);

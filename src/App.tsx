@@ -7,7 +7,6 @@ import {
 } from "react-router-dom";
 import { Global } from "@emotion/react";
 import { globalStyles } from "@styles/globalStyles";
-import Access from "@pages/Access";
 import Start from "@pages/Start";
 import Play from "@pages/Play";
 import Game from "@pages/Game";
@@ -19,13 +18,13 @@ const App: React.FC = () => {
     <Router>
       <Global styles={globalStyles} />
       <Routes>
-        <Route path="/" element={<Access />} />
+        <Route path="/" element={<Navigate to="/start" replace />} />
         <Route path="/start" element={<Start />} />
         <Route path="/play" element={<Play />} />
         <Route path="/game" element={<Game />} />
         <Route path="/ready" element={<Ready />} />
         <Route path="/results" element={<Results />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
+        <Route path="*" element={<Navigate to="/start" replace />} />
       </Routes>
     </Router>
   );

@@ -127,7 +127,7 @@ const Results = () => {
       <ResultBoard>
         {sortedNumbers.map((number) => (
           <NumberRow key={number}>
-            <span>{number} 선택:</span>
+            <span>{number}:</span>
             <span>
               {numberGroups[number].map((player) => `${player}번`).join(", ")}{" "}
               플레이어
